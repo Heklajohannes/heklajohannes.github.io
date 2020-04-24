@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Neucha&display=swap');
+body{
+    display: grid;
+    grid-template-areas: 
+    "valmynd valmynd valmynd valmynd valmynd"
+    "haus haus haus haus haus"
+    "midja midja midja vinstri haegri"
+    "fotur fotur fotur fotur fotur";
+}
+.header{
+    grid-area: haus;
+    border: 2px solid black;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: ABeeZee;
+    font-size: 30px;
+    color: black;
+}
+.navbar{
+    grid-area: valmynd;
+    border: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 0px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.article{
+    grid-area: vinstri;
+    border: 2px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding: 15px;
+}
+.main{
+    grid-area: midja;
+    border-left: 2px black solid;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+.i_midju{
+    border:white solid 2px;
+    padding: 10px;
+    margin: 30px;
+}
+.aside{
+    grid-area: haegri;
+    border-right: 2px black solid;
+    padding: 15px;
+    color: black;
+}
+.footer{
+    grid-area: fotur;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.audio{
+    display: none;
+}
+h1{
+    font-family: ABeeZee;
+}
+p{
+    font-family: Neucha;
+}
