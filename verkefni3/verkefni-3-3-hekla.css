@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+body{
+    display: grid;
+    grid-template-areas: 
+    "haus haus haus haus haus"
+    "valmynd valmynd valmynd valmynd valmynd"
+    "vinstri haegri midja midja midja"
+    "fotur fotur fotur fotur fotur";
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(172, 166, 166);
+}
+.header{
+    background: rgba(0, 0, 255, 0.2);
+    grid-area: haus;
+    border: 2px solid white;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: Mansalva;
+    font-size: 30px;
+}
+.navbar{
+    grid-area: valmynd;
+    border: 2px solid white;
+    border-top: 0px;
+    border-bottom: 0px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(213, 75, 75, 0.2);
+}
+.article{
+    grid-area: vinstri;
+    border: 2px solid white;
+    border-bottom: 0px;
+    padding: 15px;
+    background: rgba(25, 207, 77, 0.2);
+}
+.main{
+    grid-area: midja;
+    border-top: 2px solid white;
+    padding: 15px;
+}
+.i_midju{
+    border: white solid 2px;
+    padding: 10px;
+    margin: 30px;
+    background: rgba(207, 25, 163, 0.2);
+}
+.aside{
+    grid-area: haegri;
+    border: 2px solid white;
+    border-bottom: 0px;
+    padding: 15px;
+    background: rgba(235, 245, 25, 0.2);
+}
+.footer{
+    grid-area: fotur;
+    border: 2px solid white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(4, 0, 255, 0.2);
+}
+.audio{
+    display: none;
+}
+p{
+    font-family: Indie Flower;
+}
+h1{
+    font-family: Mansalva;
+}
