@@ -1,0 +1,45 @@
+body {
+    max-width:60em;
+    border : 1px solid blue;/*-width-style-collor*
+    margin : 1em auto; /*top + bottom /left + right*/
+    padding : 1em;
+    }
+    
+h1{
+    color : darkblue
+}
+
+.dekri_rauður{
+    color: darkred
+}
+.haus{
+    color: blue;
+    font-family: 'Times New Roman';
+    text-align: center;
+    margin: 20px
+}
+.betri{
+    padding-left: 30px
+}
+.raudur{
+    color: red;
+}
+body{
+    font-family:"arial";
+    border:1px blue solid;
+    width: 800px;
+    margin: 5px auto;
+}
+.milli_linur{
+    margin-right: 20px;
+}
+.bold_red{
+    color: red;
+    font-weight: bold;
+}
+.blue{
+    color: blue solid;
+}
+.green{
+    color: green;
+}
