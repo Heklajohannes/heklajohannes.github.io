@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+* { box-sizing: border-box }
+
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    background-image: linear-gradient(#9D86DE, #F3D5ED);
+    height: 100%;
+}
+.topnav{
+    text-align: right;
+    word-spacing: 10px;
+    font-family: 'Quattrocento', serif;
+    font-size: 20px;
+    justify-content: right;
+}
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+    font-family: 'Quattrocento', serif;
+}
+h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.5em;
+    font-family: 'Quattrocento', serif;
+}
+h4 {
+    font-family: 'Quattrocento', serif;
+}
+
+p{
+    font-family: 'Roboto Mono', monospace;
+}
+.forsidan {
+    text-align: center;
+}
+blockquote{
+    background: rgba(255, 255, 255, 0.7);
+    font-family: 'Quattrocento', serif;
+}
+.verkefni{
+    text-align: right;
+}
+.verkefni1{
+    text-align: right;
+    text-align: top;
+}
+header{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.container {
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;}
+/* grid */
+.col-2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.gap-4 {
+    grid-gap: 4em
+}
+.copy{
+    text-align: center;
+}
+.pila{
+    position: fixed;
+    left: 50%;
+    bottom: 100px;
+
+    background:#8A2BE2;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    color: mintcream;
+}
+a:active{
+    color: red;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: blue;
+}
+.innermenu a:link{
+    background-color: blueviolet;
+    padding: 14px 25px;
+    text-align: center;
+}
+.topnav{
+    margin-bottom: 20px;
+}
