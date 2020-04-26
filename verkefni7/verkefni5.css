@@ -1,0 +1,71 @@
+body{
+    display: grid;
+    grid-template-areas:
+    "haus haus"
+    "menu menu"
+    "um_mig ahugamal"
+    "fotur kort";
+}
+/* Þessi header gerir stafina hvíta og bakgrunninn bláan */
+.header{
+    grid-area: haus;
+    text-align: center;
+    background-color: #8DCCFC;
+    color: white;
+    border: #F3D5ED;
+}
+
+/* menu og innermenu eru fyrir klassana, ef ýtt er á þá þá ferðu á valinn stað í verkefninu */
+.menu{
+    grid-area: menu;
+    background-color: #F3D5ED;
+    text-align: center;
+    border: solid #8DCCFC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.innermenu{
+    padding: 14px 25px;
+    border: currentColor;
+}
+
+/*um mig og áhugamál eru aðalefni síðunnar, það er allt í hvítu letri og svo til að hafa smá fínt notaði ég mismunandi liti fyrir hvorn dálkinn */
+.um_mig{
+    grid-area: um_mig;
+    border: #F3D5ED solid ;
+    background-color: #8DCCFC;
+    color: white;
+    padding: 10px;
+}
+.ahugamal{
+    grid-area: ahugamal;
+    background-color: #F3D5ED;
+    border: solid #8DCCFC;
+    color: white;
+}
+.fotur{
+    grid-area: fotur;
+    background-color: #F3D5ED;
+    border: solid #8DCCFC;
+    padding: 10px;
+    justify-content: center;
+}
+
+.kort{
+    grid-area: kort;
+    background-color: #8DCCFC;
+    border:#F3D5ED;
+}
+/* ég notaði þennan kóða til að passa að myndirnar taki ekki of mikið pláss */
+.resize{
+    width: 100px;
+    height: auto;
+}
+.resize1{
+    width: 200px;
+    height: auto;
+}
+.resize2{
+    width: 230px;
+    height: auto;
+}
