@@ -6,3 +6,4 @@
 5. [Verkefni 5](https://heklajohannes.github.io/verkefni5/index.html)
 6. [Verkefni 6](https://heklajohannes.github.io/verkefni6/verkefni6.html)
 7. [Verkefni 7](https://heklajohannes.github.io/verkefni7/verkefni5.html)
+8. [Verkefni 8](https://heklajohannes.github.io/verkefni8/verkefni7.hekla.html)
